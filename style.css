@@ -2,13 +2,13 @@
 
 /* 1. Desktop Background */
 body {
-    /* Uses the classic Windows XP Bliss wallpaper image */
+    /* Use this exact remote URL */
     background-image: url('https://upload.wikimedia.org/wikipedia/en/d/d7/Windows_XP_Bliss_desktop_background.jpg');
-    background-size: cover; /* Ensures the image covers the entire screen */
+
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /* Prevents the desktop from scrolling */
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 /* 2. Desktop Area Sizing */
@@ -16,26 +16,32 @@ body {
     position: relative;
     width: 100vw;
     /* Full height minus the taskbar height (approx 40px) */
-    height: calc(100vh - 40px); 
+    height: calc(100vh - 40px);
 }
 
 /* 3. Taskbar Positioning */
 #taskbar {
-    position: fixed; /* Keeps the taskbar glued to the bottom */
+    position: fixed;
+    /* Keeps the taskbar glued to the bottom */
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 40px; /* Defines the standard taskbar height */
-    z-index: 100; /* Ensures it sits above all other windows */
+    height: 40px;
+    /* Defines the standard taskbar height */
+    z-index: 100;
+    /* Ensures it sits above all other windows */
     padding: 0;
     margin: 0;
-    border: none; /* Override default XP.css window border */
-    box-shadow: none; /* Override default XP.css window shadow */
+    border: none;
+    /* Override default XP.css window border */
+    box-shadow: none;
+    /* Override default XP.css window shadow */
 }
 
 /* 4. Taskbar Content Layout */
 .taskbar-body {
-    display: flex; /* Arranges the start button and apps horizontally */
+    display: flex;
+    /* Arranges the start button and apps horizontally */
     align-items: center;
     height: 100%;
     padding: 2px;
