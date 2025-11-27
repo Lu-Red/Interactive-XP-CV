@@ -2,8 +2,8 @@
 
 /* 1. Desktop Background */
 body {
-    /* Use this exact remote URL */
-    background-image: url('https://upload.wikimedia.org/wikipedia/en/d/d7/Windows_XP_Bliss_desktop_background.jpg');
+    /* New tested URL for the Bliss wallpaper */
+    background-image: url('https://user-images.githubusercontent.com/49580433/159800473-19597371-d68a-4952-b918-65b1c5521235.jpg');
 
     background-size: cover;
     background-position: center;
